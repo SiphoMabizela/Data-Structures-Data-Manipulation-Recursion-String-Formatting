@@ -1,7 +1,10 @@
 # QUESTION 1: Data Structures
 def count_occurrences(items):
-    pass
-
+    count = {}
+    for item in items:
+        if item == count:
+            count += 1
+    return count
 
 # QUESTION 2: Data Manipulation
 def filter_even_numbers(numbers):
