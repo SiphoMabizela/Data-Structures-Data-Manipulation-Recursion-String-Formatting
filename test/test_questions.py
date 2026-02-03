@@ -1,11 +1,11 @@
 import pytest
-
-from question1 import count_occurrences
-from question2 import filter_even_numbers
-from question3 import sum_to_n
-from question4 import format_user
-from question5 import merge_and_sort
-
+from question import (
+    count_occurrences,
+    filter_even_numbers,
+    sum_to_n,
+    format_user,
+    merge_and_sort
+)
 
 # -------------------------
 # QUESTION 1: Data Structures
@@ -64,7 +64,7 @@ def test_format_user_spacing():
 
 
 # -------------------------
-# QUESTION 5: Data Structures + Manipulation
+# QUESTION 5: Data Structures + Data Manipulation
 # -------------------------
 
 def test_merge_and_sort_basic():
